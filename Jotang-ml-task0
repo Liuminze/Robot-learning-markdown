@@ -1,1 +1,18 @@
+stu={"stu1":61,"stu2":62,"stu3":96,"stu4":88}
+print("the highest score:",max(stu.values()))
+def calc_average(stu):
+     total = sum(stu.values())
+     count = len(stu)
+     return total / count
+print("the average is :",calc_average(stu))
 
+
+
+
+
+import numpy as np
+A = np.array([[1, 2, 3],
+              [4, 5, 6],
+              [6, 7, 8]])
+C=A@A
+print(C)
